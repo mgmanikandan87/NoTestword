@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="SampledemoTest (2)" project="Flyte Ebook Testing" tests="4" started="4" failures="0" errors="1" ignored="0">
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="283.366">
+    <testsuite name="com.flytebook.SampledemoTest" time="283.366">
+      <testcase name="test1_DnowloadSampleBook " classname="com.flytebook.SampledemoTest" time="76.341"/>
+      <testcase name="test2_ReadSampleBook " classname="com.flytebook.SampledemoTest" time="79.907"/>
+      <testcase name="test3_AddNote " classname="com.flytebook.SampledemoTest" time="100.335"/>
+      <testcase name="test4_DeleteNote " classname="com.flytebook.SampledemoTest" time="26.783">
+        <error>Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalArgumentException''. Check device logcat for details
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="SampledemoTest (2)" project="Flyte Ebook Testing" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="186.191">
+    <testsuite name="com.flytebook.SampledemoTest" time="186.191">
+      <testcase name="test1_Login " classname="com.flytebook.SampledemoTest" time="30.182"/>
+      <testcase name="test2_Downloadbooks " classname="com.flytebook.SampledemoTest" time="9.251"/>
+      <testcase name="test3_Readingbook " classname="com.flytebook.SampledemoTest" time="50.993"/>
+      <testcase name="test4_Addnote " classname="com.flytebook.SampledemoTest" time="62.478"/>
+      <testcase name="test5_Deletenote " classname="com.flytebook.SampledemoTest" time="33.287"/>
+    </testsuite>
+  </testsuite>
+</testrun>

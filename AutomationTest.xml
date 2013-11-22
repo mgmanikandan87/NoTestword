@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="Automation Test" project="Automation Test" tests="4" started="2" failures="0" errors="0" ignored="0">
+  
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" incomplete="true">
+    
+    <testsuite name="com.test.testcases.Alogin" time="24.798">
+      
+      <testcase name="testLogin " classname="com.test.testcases.Alogin" time="24.799">
+        
+      </testcase>
+      
+    </testsuite>
+    
+    <testsuite name="com.test.testcases.BdownloadBook" incomplete="true">
+      
+      <testcase name="testDownloadBook " classname="com.test.testcases.BdownloadBook" incomplete="true">
+      </testcase>
+      
+    </testsuite>
+    
+    <testsuite name="com.test.testcases.CreadingBook" incomplete="true">
+      
+      <testcase name="testReadingBook " classname="com.test.testcases.CreadingBook" incomplete="true"/>
+      
+    </testsuite>
+    
+    <testsuite name="com.test.testcases.Dadd_Delete_Notes" incomplete="true">
+      
+      <testcase name="testAddandDeleteNotes " classname="com.test.testcases.Dadd_Delete_Notes" incomplete="true"/>
+      
+    </testsuite>
+    
+  </testsuite>
+</testrun>

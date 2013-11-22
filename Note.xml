@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="NotePadTest (17)" project="NotePadTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="34.122">
+    <testsuite name="com.jayway.test.NotePadTest" time="34.122">
+      <testcase name="testAddNote " classname="com.jayway.test.NotePadTest" time="11.692"/>
+      <testcase name="testEditNote " classname="com.jayway.test.NotePadTest" time="7.868"/>
+      <testcase name="testRemoveNote " classname="com.jayway.test.NotePadTest" time="14.562"/>
+    </testsuite>
+  </testsuite>
+</testrun>

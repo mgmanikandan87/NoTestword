@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="NotePadTest (17)" project="NotePadTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="34.122">
+    <testsuite name="com.jayway.test.NotePadTest" time="34.122">
+      <testcase name="testAddNote " classname="com.jayway.test.NotePadTest" time="11.692"/>
+      <testcase name="testEditNote " classname="com.jayway.test.NotePadTest" time="7.868"/>
+      <testcase name="testRemoveNote " classname="com.jayway.test.NotePadTest" time="14.562">   <failure>junit.framework.AssertionFailedError: Note 1 Test is found expected:&lt;false&gt; but was:&lt;true&gt;&#13;
+at com.jayway.test.NotePadTest.testRemoveNote(NotePadTest.java:95)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+
+</failure></testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

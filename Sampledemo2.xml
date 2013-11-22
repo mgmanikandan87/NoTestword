@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="SampledemoTest (2)" project="Flyte Ebook Testing" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="109.358">
+    <testsuite name="com.flytebook.SampledemoTest" time="109.358">
+      <testcase name="testCases " classname="com.flytebook.SampledemoTest" time="109.358"/>
+    </testsuite>
+  </testsuite>
+</testrun>

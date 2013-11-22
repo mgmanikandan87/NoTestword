@@ -1,0 +1,183 @@
+<html>
+<body>
+<h2>
+<p align="center">
+						Moolya Software Testing Pvt Ltd
+						<img align="right" width="200" height="100" src="/Users/manikandan/Robo/NoTestword/moolya.PNG" class="CalloutRightPhoto"></p>
+<p align="center">Automation Test Report
+					</p>
+</h2>
+<p align="left">
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">Project Name
+								</font></th>
+</tr>
+<tr>
+<td>Flyte Ebook Testing</td>
+</tr>
+</table>
+</p>
+<p align="left">
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">Package Name</font></th>
+</tr>
+<tr>
+<tr>
+<td>com.flytebook.SampledemoTest</td>
+</tr>
+<tr>
+<td>com.flytebook.SampledemoTest</td>
+</tr>
+</tr>
+</table>
+</p>
+<p align="left">
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="center"><font face="Arial,Helvetica" size="4" color="white">Device Name</font></th><th align="center"><font face="Arial,Helvetica" size="4" color="white">Time Take in
+									(hh:mm:ss)</font></th>
+</tr>
+<tr>
+<td>samsung-gt_n7000-0019718511c33f</td><td align="center">00:05:18</td>
+</tr>
+<tr>
+<td>samsung-gt_s5830i-0123456789ABCDEF</td><td align="center">00:05:01</td>
+</tr>
+</table>
+</p>
+<p>
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">Test Result</font></th>
+</tr>
+</table>
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Tests</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Tests Started</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Passed</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Failures</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Errors</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Ignored</font></th>
+</tr>
+<tr>
+<td align="center">8</td><td align="center">8</td><td align="center">5</td><td align="center">3</td><td align="center">1</td><td align="center">0</td>
+</tr>
+</table>
+</p>
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">Test Name</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Class Name</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Time Taken in
+								(hh:mm:ss)</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Result</font></th>
+</tr>
+<tr>
+<td align="center">test1_DnowloadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:28</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test2_ReadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:24</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test3_AddNote <td>com.flytebook.SampledemoTest</td><td align="center">00:01:34</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
+<p>junit.framework.AssertionFailedError: EditText is not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
+at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
+at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:279)&#13;
+at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:106)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</p>
+</td></td>
+</tr>
+<tr>
+<td align="center">test4_DeleteNote <td>com.flytebook.SampledemoTest</td><td align="center">00:00:53</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
+<p>junit.framework.AssertionFailedError: 2 ImageButtons are not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:489)&#13;
+at com.jayway.android.robotium.solo.Clicker.clickOn(Clicker.java:375)&#13;
+at com.jayway.android.robotium.solo.Solo.clickOnImageButton(Solo.java:740)&#13;
+at com.flytebook.SampledemoTest.DeleteNote(SampledemoTest.java:296)&#13;
+at com.flytebook.SampledemoTest.test4_DeleteNote(SampledemoTest.java:116)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</p>
+</td></td>
+</tr>
+<tr>
+<td align="center">test1_DnowloadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:16</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test2_ReadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:26</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test3_AddNote <td>com.flytebook.SampledemoTest</td><td align="center">00:01:47</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
+<p>junit.framework.AssertionFailedError: EditText is not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
+at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
+at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:279)&#13;
+at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:106)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+
+</p>
+</td></td>
+</tr>
+<tr>
+<td align="center">test4_DeleteNote <td>com.flytebook.SampledemoTest</td><td align="center">00:00:32</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
+<p>Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalArgumentException''. Check device logcat for details
+</p>
+</td></td>
+</tr>
+<p>
+<table border="1">
+<tr bgcolor="#9E289E">
+<th align="left"><font face="Arial,Helvetica" size="4" color="white">Note</font></th>
+</tr>
+</table>
+<table border="1">
+<tr>
+<tr>
+<th align="left"><font face="Arial,Helvetica" size="4" color="#9E289E">Failure :</font>
+										Failures are when your test cases fail - i.e. your assertions
+										are incorrect.
+									</th>
+</tr>
+<tr>
+<th align="left"><font face="Arial,Helvetica" size="4" color="#9E289E">Error :</font>
+										Errors are unexpected errors that occur while trying to
+										actually run the test.
+										For example, a NullPointer, or a ClassNotFound exception will
+										report an error.
+									</th>
+</tr>
+<tr>
+<th align="left"><font face="Arial,Helvetica" size="4" color="#9E289E">Ignored :</font>
+										Errors are unexpected errors that occur while trying to
+										actually run the test.
+										For example, a NullPointer, or a ClassNotFound exception will
+										report an error.
+									</th>
+</tr>
+</tr>
+</table>
+</p>
+</table>
+<p align="center">&copy; Moolya Software Testing Pvt Ltd
+				</p>
+</body>
+</html>

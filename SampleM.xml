@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="SampledemoTest (2)" project="Flyte Ebook Testing" tests="12" started="12" failures="7" errors="0" ignored="0">
+  <testsuite name="samsung-gt_n7000-0019718511c33f" time="269.005">
+    <testsuite name="com.flytebook.SampledemoTest" time="269.005">
+      <testcase name="test1_DnowloadSampleBook " classname="com.flytebook.SampledemoTest" time="56.206"/>
+      <testcase name="test2_ReadSampleBook " classname="com.flytebook.SampledemoTest" time="77.562"/>
+      <testcase name="test3_AddNote " classname="com.flytebook.SampledemoTest" time="83.631">
+        <failure>junit.framework.AssertionFailedError: EditText is not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
+at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
+at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:268)&#13;
+at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:98)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test4_DeleteNote " classname="com.flytebook.SampledemoTest" time="51.579">
+        <failure>junit.framework.AssertionFailedError: 2 ImageButtons are not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:489)&#13;
+at com.jayway.android.robotium.solo.Clicker.clickOn(Clicker.java:375)&#13;
+at com.jayway.android.robotium.solo.Solo.clickOnImageButton(Solo.java:740)&#13;
+at com.flytebook.SampledemoTest.DeleteNote(SampledemoTest.java:285)&#13;
+at com.flytebook.SampledemoTest.test4_DeleteNote(SampledemoTest.java:106)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+  <testsuite name="samsung-gt_s5830i-0123456789ABCDEF" time="328.247">
+    <testsuite name="com.flytebook.SampledemoTest" time="328.247">
+      <testcase name="test1_DnowloadSampleBook " classname="com.flytebook.SampledemoTest" time="60.652"/>
+      <testcase name="test2_ReadSampleBook " classname="com.flytebook.SampledemoTest" time="71.166">
+        <failure>junit.framework.AssertionFailedError&#13;
+at com.flytebook.SampledemoTest.OpenSampleBook(SampledemoTest.java:202)&#13;
+at com.flytebook.SampledemoTest.test2_ReadSampleBook(SampledemoTest.java:88)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test3_AddNote " classname="com.flytebook.SampledemoTest" time="82.474">
+        <failure>junit.framework.AssertionFailedError: 3 ImageViews are not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:489)&#13;
+at com.jayway.android.robotium.solo.Clicker.clickOn(Clicker.java:375)&#13;
+at com.jayway.android.robotium.solo.Solo.clickOnImage(Solo.java:1630)&#13;
+at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:266)&#13;
+at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:98)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test4_DeleteNote " classname="com.flytebook.SampledemoTest" time="113.955">
+        <failure>junit.framework.AssertionFailedError&#13;
+at com.flytebook.SampledemoTest.Logout(SampledemoTest.java:305)&#13;
+at com.flytebook.SampledemoTest.test4_DeleteNote(SampledemoTest.java:107)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+  <testsuite name="samsung-galaxy_nexus-014E51C90301801E" time="262.045">
+    <testsuite name="com.flytebook.SampledemoTest" time="262.045">
+      <testcase name="test1_DnowloadSampleBook " classname="com.flytebook.SampledemoTest" time="56.281"/>
+      <testcase name="test2_ReadSampleBook " classname="com.flytebook.SampledemoTest" time="76.219"/>
+      <testcase name="test3_AddNote " classname="com.flytebook.SampledemoTest" time="82.982">
+        <failure>junit.framework.AssertionFailedError: EditText is not found!&#13;
+at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
+at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
+at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:268)&#13;
+at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:98)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test4_DeleteNote " classname="com.flytebook.SampledemoTest" time="46.562">
+        <failure>junit.framework.AssertionFailedError&#13;
+at com.flytebook.SampledemoTest.LoginAccount(SampledemoTest.java:168)&#13;
+at com.flytebook.SampledemoTest.Login(SampledemoTest.java:140)&#13;
+at com.flytebook.SampledemoTest.test4_DeleteNote(SampledemoTest.java:104)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)&#13;
+
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
