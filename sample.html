@@ -4,7 +4,7 @@
 <p align="center">
 						Moolya Software Testing Pvt Ltd
 						<img align="right" width="200" height="100" src="/Users/manikandan/Robo/NoTestword/moolya.PNG" class="CalloutRightPhoto"></p>
-<p align="center">Automation Test Report
+<p align="center">Flipkart Ebook Automation Test Report
 					</p>
 </h2>
 <p align="left">
@@ -14,7 +14,7 @@
 								</font></th>
 </tr>
 <tr>
-<td>Flyte Ebook Testing</td>
+<td>FunctionalTests</td>
 </tr>
 </table>
 </p>
@@ -25,10 +25,16 @@
 </tr>
 <tr>
 <tr>
-<td>com.flytebook.SampledemoTest</td>
+<td>com.flipkart.fkreader.test.DownloadTest</td>
 </tr>
 <tr>
-<td>com.flytebook.SampledemoTest</td>
+<td>com.flipkart.fkreader.test.LoginTest</td>
+</tr>
+<tr>
+<td>com.flipkart.fkreader.test.ReaderTest</td>
+</tr>
+<tr>
+<td>com.flipkart.fkreader.test.StoreTest</td>
 </tr>
 </tr>
 </table>
@@ -40,10 +46,8 @@
 									(hh:mm:ss)</font></th>
 </tr>
 <tr>
-<td>samsung-gt_n7000-0019718511c33f</td><td align="center">00:05:18</td>
-</tr>
-<tr>
-<td>samsung-gt_s5830i-0123456789ABCDEF</td><td align="center">00:05:01</td>
+<td>samsung-gt_n7000-0019718511c33f</td><th align="center"><font face="Arial,Helvetica" size="4" color="black">Test
+												Incompleted</font></th>
 </tr>
 </table>
 </p>
@@ -58,7 +62,7 @@
 <th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Tests</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Tests Started</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Passed</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Failures</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Errors</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">No of Ignored</font></th>
 </tr>
 <tr>
-<td align="center">8</td><td align="center">8</td><td align="center">5</td><td align="center">3</td><td align="center">1</td><td align="center">0</td>
+<td align="center">38</td><td align="center">35</td><td align="center">33</td><td align="center">2</td><td align="center">4</td><td align="center">0</td>
 </tr>
 </table>
 </p>
@@ -68,22 +72,23 @@
 								(hh:mm:ss)</font></th><th align="left"><font face="Arial,Helvetica" size="4" color="white">Result</font></th>
 </tr>
 <tr>
-<td align="center">test1_DnowloadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:28</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+<td align="center">test01_DownloadBookByIcon <td>com.flipkart.fkreader.test.DownloadTest</td><td align="center">00:04:54</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
 </tr>
 <tr>
-<td align="center">test2_ReadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:24</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+<td align="center">test02_DownloadBookFromPopover <td>com.flipkart.fkreader.test.DownloadTest</td><td align="center">00:05:19</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
 </tr>
 <tr>
-<td align="center">test3_AddNote <td>com.flytebook.SampledemoTest</td><td align="center">00:01:34</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
-<p>junit.framework.AssertionFailedError: EditText is not found!&#13;
-at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
-at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
-at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:279)&#13;
-at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:106)&#13;
+<td align="center">test03_DeleteBookAndCheckFromArchive <td>com.flipkart.fkreader.test.DownloadTest</td><td align="center">00:02:09</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
+<p>junit.framework.AssertionFailedError: TextView with text: 'Delete and Archive' is not found!&#13;
+at com.jayway.android.robotium.solo.Getter.getView(Getter.java:66)&#13;
+at com.jayway.android.robotium.solo.Solo.getText(Solo.java:1889)&#13;
+at com.flipkart.fkreader.test.page.LibraryPage.deleteBook(LibraryPage.java:387)&#13;
+at com.flipkart.fkreader.test.DownloadTest.test03_DeleteBookAndCheckFromArchive(DownloadTest.java:131)&#13;
 at java.lang.reflect.Method.invokeNative(Native Method)&#13;
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
@@ -93,17 +98,29 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:16
 </td></td>
 </tr>
 <tr>
-<td align="center">test4_DeleteNote <td>com.flytebook.SampledemoTest</td><td align="center">00:00:53</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
-<p>junit.framework.AssertionFailedError: 2 ImageButtons are not found!&#13;
-at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:489)&#13;
-at com.jayway.android.robotium.solo.Clicker.clickOn(Clicker.java:375)&#13;
-at com.jayway.android.robotium.solo.Solo.clickOnImageButton(Solo.java:740)&#13;
-at com.flytebook.SampledemoTest.DeleteNote(SampledemoTest.java:296)&#13;
-at com.flytebook.SampledemoTest.test4_DeleteNote(SampledemoTest.java:116)&#13;
+<td align="center">test04_UnArchiveNonDownloadedBookFromArchive <td>com.flipkart.fkreader.test.DownloadTest</td><td align="center">00:02:20</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test02_LoginFromFlipkartAccount <td>com.flipkart.fkreader.test.LoginTest</td><td align="center">00:01:19</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test03_LoginFromGoogleExistingAccount <td>com.flipkart.fkreader.test.LoginTest</td><td align="center">00:01:16</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test04_LoginFromGoogleNewAccount <td>com.flipkart.fkreader.test.LoginTest</td><td align="center">00:01:50</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test05_LoginFromFacebookNewAccount <td>com.flipkart.fkreader.test.LoginTest</td><td align="center">00:04:24</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
+<p>junit.framework.AssertionFailedError: WebElement with text: 'OK' is not found!&#13;
+at com.jayway.android.robotium.solo.Clicker.clickOnWebElement(Clicker.java:343)&#13;
+at com.jayway.android.robotium.solo.Solo.clickOnWebElement(Solo.java:890)&#13;
+at com.flipkart.fkreader.test.page.AccountsSettingsPage.loginFromNewFacebookAccount(AccountsSettingsPage.java:110)&#13;
+at com.flipkart.fkreader.test.LoginTest.test05_LoginFromFacebookNewAccount(LoginTest.java:142)&#13;
 at java.lang.reflect.Method.invokeNative(Native Method)&#13;
 at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
 at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
 at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
 at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
 at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
@@ -113,35 +130,145 @@ at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:16
 </td></td>
 </tr>
 <tr>
-<td align="center">test1_DnowloadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:16</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+<td align="center">test06_ForgotPassword <td>com.flipkart.fkreader.test.LoginTest</td><td align="center">00:00:58</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
 </tr>
 <tr>
-<td align="center">test2_ReadSampleBook <td>com.flytebook.SampledemoTest</td><td align="center">00:01:26</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+<td align="center">test06_TapOnScreen <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:11:15</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
 </tr>
 <tr>
-<td align="center">test3_AddNote <td>com.flytebook.SampledemoTest</td><td align="center">00:01:47</td><td><font face="Arial,Helvetica" size="4" color="red">Failure : </font>
-<p>junit.framework.AssertionFailedError: EditText is not found!&#13;
-at com.jayway.android.robotium.solo.Waiter.waitForAndGetView(Waiter.java:492)&#13;
-at com.jayway.android.robotium.solo.Solo.typeText(Solo.java:1528)&#13;
-at com.flytebook.SampledemoTest.AddNote(SampledemoTest.java:279)&#13;
-at com.flytebook.SampledemoTest.test3_AddNote(SampledemoTest.java:106)&#13;
+<td align="center">test07_SwipePage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:08:57</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test08_SliderJump <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:07</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test09_ChapterJumpFromTOC <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:00</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test10_AddBookmarkCheckInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:21</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test11_AddBookmarkCheckFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:50</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test12_AddHighlightCheckInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:29</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test13_AddHighlightCheckFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:26</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test14_AddNoteCheckInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:32</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test15_AddNoteCheckFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:36</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test16_ChangeScreenBrightness <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:22</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test17_ChangeTextSize <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:00</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test18_ChangeReaderPageMargin <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:24</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test19_ChangeTextLinespace <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:31</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test20_ChangeReaderPageBackground <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:39</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test21_CheckLastReadLocation <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:58</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test22_DeleteBookmarksFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:17</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test23_DeleteHighlightsFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:05:53</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test24_DeleteNotesFromList <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:05:09</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test25_ChangeReaderPageOrientation <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:04:36</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test27_DeleteBookmarkInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:22</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test28_DeleteHighlightInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:28</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
+<p>java.lang.AssertionError: Highlight color and text is still present&#13;
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)&#13;
+at com.flipkart.fkreader.test.ReaderTest.test28_DeleteHighlightInReaderPage(ReaderTest.java:1106)&#13;
 at java.lang.reflect.Method.invokeNative(Native Method)&#13;
-at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:204)&#13;
-at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:194)&#13;
-at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:186)&#13;
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)&#13;
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)&#13;
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:529)&#13;
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1448)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
 
 </p>
 </td></td>
 </tr>
 <tr>
-<td align="center">test4_DeleteNote <td>com.flytebook.SampledemoTest</td><td align="center">00:00:32</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
-<p>Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalArgumentException''. Check device logcat for details
+<td align="center">test29_DeleteNoteInReaderPage <td>com.flipkart.fkreader.test.ReaderTest</td><td align="center">00:03:35</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
+<p>java.lang.AssertionError: Note color and text is still present&#13;
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)&#13;
+at com.flipkart.fkreader.test.ReaderTest.test29_DeleteNoteInReaderPage(ReaderTest.java:1198)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
 </p>
 </td></td>
+</tr>
+<tr>
+<td align="center">test30_SearchBookAndGotoProductPage <td>com.flipkart.fkreader.test.StoreTest</td><td align="center">00:00:49</td><td style="background-color:green;"><font face="Arial,Helvetica" size="4" color="white">Pass</font></td></td>
+</tr>
+<tr>
+<td align="center">test31_ApplyFilterForFreeBook <td>com.flipkart.fkreader.test.StoreTest</td><td align="center">00:01:08</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
+<p>java.lang.NullPointerException&#13;
+at com.flipkart.fkreader.test.page.StorePage.CheckCategorieTitleIsPresent(StorePage.java:165)&#13;
+at com.flipkart.fkreader.test.StoreTest.test31_ApplyFilterForFreeBook(StoreTest.java:64)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</p>
+</td></td>
+</tr>
+<tr>
+<td align="center">test32_ApplyFilterForThousandAndAbove <td>com.flipkart.fkreader.test.StoreTest</td><td align="center">00:00:06</td><td><font face="Arial,Helvetica" size="4" color="red">Error :</font>
+<p>Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.OutOfMemoryError''. Check device logcat for details
+</p>
+</td></td>
+</tr>
+<tr>
+<td align="center">test32_SortByPriceHighToLow <td>com.flipkart.fkreader.test.StoreTest</td><th align="left"><font face="Arial,Helvetica" size="4" color="black">Test
+												Incompleted</font></th><td style="background-color:red;"><font face="Arial,Helvetica" size="4" color="white">Fail</font></td></td>
+</tr>
+<tr>
+<td align="center">test33_AddBookFromStoreAndCheckFromMyLibrary <td>com.flipkart.fkreader.test.StoreTest</td><th align="left"><font face="Arial,Helvetica" size="4" color="black">Test
+												Incompleted</font></th><td style="background-color:red;"><font face="Arial,Helvetica" size="4" color="white">Fail</font></td></td>
+</tr>
+<tr>
+<td align="center">test34_AddBookFromStoreAndDownloadFromMyLibrary <td>com.flipkart.fkreader.test.StoreTest</td><th align="left"><font face="Arial,Helvetica" size="4" color="black">Test
+												Incompleted</font></th><td style="background-color:red;"><font face="Arial,Helvetica" size="4" color="white">Fail</font></td></td>
 </tr>
 <p>
 <table border="1">

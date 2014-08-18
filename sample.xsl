@@ -14,7 +14,7 @@
 							src="/Users/manikandan/Robo/NoTestword/moolya.PNG" class="CalloutRightPhoto" />
 					</p>
 
-					<p align="center">Automation Test Report
+					<p align="center">Flipkart Ebook Automation Test Report
 					</p>
 				</h2>
 

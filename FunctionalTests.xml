@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="FunctionalTests" project="FunctionalTests" tests="38" started="35" failures="2" errors="4" ignored="0">
+  <testsuite name="samsung-gt_n7000-0019718511c33f" incomplete="true">
+    <testsuite name="com.flipkart.fkreader.test.DownloadTest" time="881.224">
+      <testcase name="test01_DownloadBookByIcon " classname="com.flipkart.fkreader.test.DownloadTest" time="294.225"/>
+      <testcase name="test02_DownloadBookFromPopover " classname="com.flipkart.fkreader.test.DownloadTest" time="318.573"/>
+      <testcase name="test03_DeleteBookAndCheckFromArchive " classname="com.flipkart.fkreader.test.DownloadTest" time="128.923">
+        <failure>junit.framework.AssertionFailedError: TextView with text: 'Delete and Archive' is not found!&#13;
+at com.jayway.android.robotium.solo.Getter.getView(Getter.java:66)&#13;
+at com.jayway.android.robotium.solo.Solo.getText(Solo.java:1889)&#13;
+at com.flipkart.fkreader.test.page.LibraryPage.deleteBook(LibraryPage.java:387)&#13;
+at com.flipkart.fkreader.test.DownloadTest.test03_DeleteBookAndCheckFromArchive(DownloadTest.java:131)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test04_UnArchiveNonDownloadedBookFromArchive " classname="com.flipkart.fkreader.test.DownloadTest" time="139.503"/>
+    </testsuite>
+    <testsuite name="com.flipkart.fkreader.test.LoginTest" time="587.058">
+      <testcase name="test02_LoginFromFlipkartAccount " classname="com.flipkart.fkreader.test.LoginTest" time="79.247"/>
+      <testcase name="test03_LoginFromGoogleExistingAccount " classname="com.flipkart.fkreader.test.LoginTest" time="75.585"/>
+      <testcase name="test04_LoginFromGoogleNewAccount " classname="com.flipkart.fkreader.test.LoginTest" time="110.152"/>
+      <testcase name="test05_LoginFromFacebookNewAccount " classname="com.flipkart.fkreader.test.LoginTest" time="264.326">
+        <failure>junit.framework.AssertionFailedError: WebElement with text: 'OK' is not found!&#13;
+at com.jayway.android.robotium.solo.Clicker.clickOnWebElement(Clicker.java:343)&#13;
+at com.jayway.android.robotium.solo.Solo.clickOnWebElement(Solo.java:890)&#13;
+at com.flipkart.fkreader.test.page.AccountsSettingsPage.loginFromNewFacebookAccount(AccountsSettingsPage.java:110)&#13;
+at com.flipkart.fkreader.test.LoginTest.test05_LoginFromFacebookNewAccount(LoginTest.java:142)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</failure>
+      </testcase>
+      <testcase name="test06_ForgotPassword " classname="com.flipkart.fkreader.test.LoginTest" time="57.723"/>
+    </testsuite>
+    <testsuite name="com.flipkart.fkreader.test.ReaderTest" time="6408.955">
+      <testcase name="test06_TapOnScreen " classname="com.flipkart.fkreader.test.ReaderTest" time="675.269"/>
+      <testcase name="test07_SwipePage " classname="com.flipkart.fkreader.test.ReaderTest" time="536.832"/>
+      <testcase name="test08_SliderJump " classname="com.flipkart.fkreader.test.ReaderTest" time="246.607"/>
+      <testcase name="test09_ChapterJumpFromTOC " classname="com.flipkart.fkreader.test.ReaderTest" time="240.149"/>
+      <testcase name="test10_AddBookmarkCheckInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="200.594"/>
+      <testcase name="test11_AddBookmarkCheckFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="230.354"/>
+      <testcase name="test12_AddHighlightCheckInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="209.072"/>
+      <testcase name="test13_AddHighlightCheckFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="265.933"/>
+      <testcase name="test14_AddNoteCheckInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="211.503"/>
+      <testcase name="test15_AddNoteCheckFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="275.788"/>
+      <testcase name="test16_ChangeScreenBrightness " classname="com.flipkart.fkreader.test.ReaderTest" time="202.499"/>
+      <testcase name="test17_ChangeTextSize " classname="com.flipkart.fkreader.test.ReaderTest" time="240.24"/>
+      <testcase name="test18_ChangeReaderPageMargin " classname="com.flipkart.fkreader.test.ReaderTest" time="264.428"/>
+      <testcase name="test19_ChangeTextLinespace " classname="com.flipkart.fkreader.test.ReaderTest" time="271.137"/>
+      <testcase name="test20_ChangeReaderPageBackground " classname="com.flipkart.fkreader.test.ReaderTest" time="219.494"/>
+      <testcase name="test21_CheckLastReadLocation " classname="com.flipkart.fkreader.test.ReaderTest" time="298.235"/>
+      <testcase name="test22_DeleteBookmarksFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="257.06"/>
+      <testcase name="test23_DeleteHighlightsFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="352.846"/>
+      <testcase name="test24_DeleteNotesFromList " classname="com.flipkart.fkreader.test.ReaderTest" time="309.046"/>
+      <testcase name="test25_ChangeReaderPageOrientation " classname="com.flipkart.fkreader.test.ReaderTest" time="276.081"/>
+      <testcase name="test27_DeleteBookmarkInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="202.386"/>
+      <testcase name="test28_DeleteHighlightInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="208.258">
+        <error>java.lang.AssertionError: Highlight color and text is still present&#13;
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)&#13;
+at com.flipkart.fkreader.test.ReaderTest.test28_DeleteHighlightInReaderPage(ReaderTest.java:1106)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</error>
+      </testcase>
+      <testcase name="test29_DeleteNoteInReaderPage " classname="com.flipkart.fkreader.test.ReaderTest" time="215.144">
+        <error>java.lang.AssertionError: Note color and text is still present&#13;
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)&#13;
+at com.flipkart.fkreader.test.ReaderTest.test29_DeleteNoteInReaderPage(ReaderTest.java:1198)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="com.flipkart.fkreader.test.StoreTest" incomplete="true">
+      <testcase name="test30_SearchBookAndGotoProductPage " classname="com.flipkart.fkreader.test.StoreTest" time="48.903"/>
+      <testcase name="test31_ApplyFilterForFreeBook " classname="com.flipkart.fkreader.test.StoreTest" time="67.859">
+        <error>java.lang.NullPointerException&#13;
+at com.flipkart.fkreader.test.page.StorePage.CheckCategorieTitleIsPresent(StorePage.java:165)&#13;
+at com.flipkart.fkreader.test.StoreTest.test31_ApplyFilterForFreeBook(StoreTest.java:64)&#13;
+at java.lang.reflect.Method.invokeNative(Native Method)&#13;
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)&#13;
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)&#13;
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)&#13;
+at com.flipkart.fkreader.test.FlyteBaseTest.runTest(FlyteBaseTest.java:45)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:192)&#13;
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:177)&#13;
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)&#13;
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1619)&#13;
+
+</error>
+      </testcase>
+      <testcase name="test32_ApplyFilterForThousandAndAbove " classname="com.flipkart.fkreader.test.StoreTest" time="5.946">
+        <error>Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.OutOfMemoryError''. Check device logcat for details
+</error>
+      </testcase>
+      <testcase name="test32_SortByPriceHighToLow " classname="com.flipkart.fkreader.test.StoreTest" incomplete="true"/>
+      <testcase name="test33_AddBookFromStoreAndCheckFromMyLibrary " classname="com.flipkart.fkreader.test.StoreTest" incomplete="true"/>
+      <testcase name="test34_AddBookFromStoreAndDownloadFromMyLibrary " classname="com.flipkart.fkreader.test.StoreTest" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>
